@@ -1,12 +1,96 @@
-# React + Vite
+# Advanced Profile Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A ReactJS application designed to manage user profiles effectively. It utilizes Redux for state management and persists data using a custom localStorage hook.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+*   **Add New Profiles:** Add user profiles via a modal form.
+*   **View Profiles:** Display all profiles in a responsive card grid.
+*   **Edit Profiles:** Update existing profile information through an edit modal.
+*   **Search:** Dynamically search profiles by name, email, description, etc.
+*   **Filter:** Filter profiles by language, education, and specialization using toggleable filter options.
+*   **Persistence:** User data is saved to the browser's localStorage and reloaded on startup.
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+*   React (Functional Components & Hooks)
+*   Redux (for global state management)
+*   React-Redux
+*   Tailwind CSS (for styling)
+*   `uuid` (for unique IDs)
+*   `react-icons` (for icons)
+
+## 🚀 Getting Started
+
+1.  **Clone the repository:**
+    ```bash
+    git clone <your-repository-url>
+    cd advanced-profile-manager
+    ```
+
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    # or
+    yarn install
+    ```
+
+3.  **Run the development server:**
+    ```bash
+    npm start
+    # or
+    yarn start
+    ```
+
+4.  Open your browser and navigate to `http://localhost:3000`.
+
+## 📂 Folder Structure
+
+
+# Advanced Profile Manager
+
+A ReactJS application designed to manage user profiles effectively. It utilizes Redux for state management and persists data using a custom localStorage hook.
+
+## ✨ Features
+
+*   **Add New Profiles:** Add user profiles via a modal form.
+*   **View Profiles:** Display all profiles in a responsive card grid.
+*   **Edit Profiles:** Update existing profile information through an edit modal.
+*   **Search:** Dynamically search profiles by name, email, description, etc.
+*   **Filter:** Filter profiles by language, education, and specialization using toggleable filter options.
+*   **Persistence:** User data is saved to the browser's localStorage and reloaded on startup.
+
+## 🛠️ Tech Stack
+
+*   React (Functional Components & Hooks)
+*   Redux (for global state management)
+*   React-Redux
+*   Tailwind CSS (for styling)
+*   `uuid` (for unique IDs)
+*   `react-icons` (for icons)
+
+## 🚀 Getting Started
+
+1.  **Clone the repository:**
+    ```bash
+    git clone <your-repository-url>
+    cd advanced-profile-manager
+    ```
+
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    # or
+    yarn install
+    ```
+
+3.  **Run the development server:**
+    ```bash
+    npm start
+    # or
+    yarn start
+    ```
+
+4.  Open your browser and navigate to `http://localhost:3000`.
+
+## 📂 Folder Structure
